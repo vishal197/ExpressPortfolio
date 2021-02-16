@@ -1,0 +1,51 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/main_nav.ejs %>
+  
+
+  <!-- Main Content -->
+  <main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the Vishal's Potfolio</h1>
+    </div>
+    
+    <div class="row">
+      
+      <div class="col-sm-4" style="text-align: center;">
+      
+        <h4><u>Mission Statement</u></h4>
+        
+        <p>In my life I strive to be the best person I can be. I appreciate and respect my parents, but still remain independent. I try to be a good role model for my younger cousin brother by being a diligent student. My hardworking personality shows in the work I do, and dedication to myself to stay away from thing that hinder my abilities to reach my goals. I am thankful to all the people in my life who have guided me along my journey. </p>
+        
+        <button text="About Me" style="background-color: blue;">
+          <a href="/about" style="color: burlywood;">About Me</a>
+        </button>
+      
+        <button style="background-color: blue;">
+          <a href="/services" style="color: burlywood;">Our Services</a>
+        </button>
+
+      </div>
+
+      <div class="col-sm-4" style="text-align: center;">
+
+        <label>First Name : <%= firstname %></label><br>
+        <label>Last Name : <%= lastname %></label><br>
+        <label>Phone Number : <%= phone_no %></label><br>
+        <label>Email : <%= email %></label><br>
+        <label>Message : <%= message %></label><br>
+
+      </div>
+      
+      <div class="col-sm-4"></div>
+    </div><br>
+  </main>
+  
+<%- include partials/bottom_nav.ejs %>  
+
+<%- include partials/footer.ejs %>
+  
+
+
+
+
